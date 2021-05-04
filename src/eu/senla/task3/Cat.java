@@ -19,9 +19,7 @@ public class Cat {
         return Objects.hash(getName(), getAge());
     }
 
-    public Cat() {
 
-    }
 
     @Override
     public String toString() {
@@ -47,6 +45,9 @@ public class Cat {
     public String name = "New Cat";
     public Integer age = 0;
 
+    public Cat() {
+
+    }
     public Cat(String name, int age) {
         this.name = name;
         this.age = age;

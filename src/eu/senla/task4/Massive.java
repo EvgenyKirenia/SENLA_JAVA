@@ -1,4 +1,4 @@
-package eu.senla;
+package eu.senla.task4;
 
 import java.text.DecimalFormat;
 

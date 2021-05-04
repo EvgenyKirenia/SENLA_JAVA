@@ -8,7 +8,7 @@ public class Main {
             Cat cat = new Cat();
             i++;
 
-            System.out.println(cat.name + ", " + "Age: " + cat.age);
+            System.out.println(cat.name + i + ", " + "Age: " + cat.age +i);
         }
         System.out.println("=============================");
         for (i = 0; i < 10; i++) {
