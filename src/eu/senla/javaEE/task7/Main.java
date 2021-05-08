@@ -11,10 +11,10 @@ public class Main {
         BadRequest readAll = new BadRequest();
         create.create(new User("lol","lol"));
         create.create(new User("lol","lol"));
-        update.update(1,new User("qwer","123"));
-        read.read("lol","lol");
-        delete.delete("qwer","123");
         readAll.readAll();
+        update.update(13,new User("qwer","123"));
+        delete.delete("qwer","123");
+        read.read("lol","lol");
 
 
 

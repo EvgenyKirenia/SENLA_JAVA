@@ -5,8 +5,6 @@ import com.mysql.jdbc.PreparedStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 import static java.sql.DriverManager.getConnection;
 
@@ -91,7 +89,7 @@ public class BadRequest implements Bad {
     }
 
     @Override
-    public List<User> readAll() {
+    public User readAll() {
         String url = "jdbc:mysql://127.0.0.1:3306/app1";
         String userName = "root";
         String passsword = "root";
@@ -106,10 +104,17 @@ public class BadRequest implements Bad {
             PreparedStatement pstm = (PreparedStatement) connection.prepareStatement("SELECT * FROM users");
 
             ResultSet resultSet = pstm.executeQuery();
-            List<User> list =new ArrayList<User>();
+            String name;
+            String pass;
+            Integer id;
             while (resultSet.next()){
-                list.add(new User(resultSet.getString("name"),
-                resultSet.getString("password"),resultSet.getInt("id")));
+              name =  resultSet.getString("name");
+               pass= resultSet.getString("password");
+               id= resultSet.getInt("id");
+                System.out.println("-----------");
+                System.out.println(id);
+                System.out.println(name);
+                System.out.println(pass+"\n");
             }
 
 
