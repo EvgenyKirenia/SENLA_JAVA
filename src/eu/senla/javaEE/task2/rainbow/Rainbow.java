@@ -1,4 +1,4 @@
-package eu.senla.task2.rainbow;
+package eu.senla.javaEE.task2.rainbow;
 
 import java.util.Scanner;
 

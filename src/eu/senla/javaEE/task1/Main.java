@@ -1,47 +1,45 @@
-package eu.senla.task1;
+package eu.senla.javaEE.task1;
 
-import javax.swing.text.html.parser.Parser;
-
-public class Second {
+public class Main {
 
     public static void main(String[] args) {
-        Main main = new Main();
+        Second second = new Second();
 
-        main.setBy((byte)12);
-        System.out.println(main.getBy());
+        second.setBy((byte)12);
+        System.out.println(second.getBy());
 
-        main.setSh((short) 120);
-        System.out.println(main.getSh());
+        second.setSh((short) 120);
+        System.out.println(second.getSh());
 
-        main.setI(1200);
-        System.out.println(main.getI());
+        second.setI(1200);
+        System.out.println(second.getI());
 
-        main.setLon(12000);
-        System.out.println(main.getLon());
+        second.setLon(12000);
+        System.out.println(second.getLon());
 
-        main.setDob(12.1);
-        System.out.println(main.getDob());
+        second.setDob(12.1);
+        System.out.println(second.getDob());
 
-        main.setFl(122.3f);
-        System.out.println(main.getFl());
+        second.setFl(122.3f);
+        System.out.println(second.getFl());
 
-        main.setCh('Q');
-        System.out.println(main.getCh());
+        second.setCh('Q');
+        System.out.println(second.getCh());
 
-        main.setBool(true);
-        System.out.println(main.getBool());
+        second.setBool(true);
+        System.out.println(second.getBool());
 
-        main.setStr("qwerty");
-        System.out.println(main.getStr());
+        second.setStr("qwerty");
+        System.out.println(second.getStr());
 
-        main.setIn(13253);
-        System.out.println(main.getIn());
+        second.setIn(13253);
+        System.out.println(second.getIn());
 
-        main.setDoubl(25336.6546);
-        System.out.println(main.getDoubl());
+        second.setDoubl(25336.6546);
+        System.out.println(second.getDoubl());
 
-        main.setChara((char) 555);
-        System.out.println(main.getChara());
+        second.setChara((char) 555);
+        System.out.println(second.getChara());
 
         System.out.println();
 

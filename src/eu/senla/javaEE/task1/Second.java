@@ -1,6 +1,6 @@
-package eu.senla.task1;
+package eu.senla.javaEE.task1;
 
-public class Main {
+public class Second {
     private byte by ;
     private short sh;
     private int i;
@@ -38,7 +38,7 @@ public class Main {
         this.chara = chara;
     }
 
-    public Main() {
+    public Second() {
         this.by = by;
         this.sh = sh;
         this.i = i;
@@ -124,17 +124,6 @@ public class Main {
         this.str = str;
     }
 
-    public static void main(String[] args) {
-        byte by ;
-        short sh;
-        int i;
-        long lon;
-        float fl;
-        double dob;
-        char ch;
-        boolean bool;
-        String str;
 
-    }
 
 }

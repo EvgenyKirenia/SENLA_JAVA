@@ -1,6 +1,6 @@
-package eu.senla.task2;
+package eu.senla.javaEE.task2;
 
-import eu.senla.task2.rainbow.Rainbow;
+import eu.senla.javaEE.task2.rainbow.Rainbow;
 
 import java.util.Scanner;
 

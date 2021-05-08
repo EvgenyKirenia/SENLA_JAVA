@@ -1,4 +1,4 @@
-package eu.senla.task3;
+package eu.senla.javaEE.task3;
 
 import java.util.Objects;
 

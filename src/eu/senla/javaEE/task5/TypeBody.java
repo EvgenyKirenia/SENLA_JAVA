@@ -1,4 +1,4 @@
-package eu.senla.task5;
+package eu.senla.javaEE.task5;
 
 
 public enum TypeBody {

@@ -1,6 +1,7 @@
-package eu.senla.task6;
+package eu.senla.javaEE.task6;
 
-import eu.senla.task3.Cat;
+
+import eu.senla.javaEE.task3.Cat;
 
 import java.util.Comparator;
 
