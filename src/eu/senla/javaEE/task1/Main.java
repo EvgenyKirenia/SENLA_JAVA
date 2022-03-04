@@ -55,6 +55,9 @@ public class Main {
         Integer in = 9987567;
          Double doubl = 365758888.0;
          Character chara = 000;
+         String smile = "\uD83D\uDE04";
+        System.out.println(smile);
+        System.out.println(smile);
 
         sh = by;
         System.out.println(sh);
