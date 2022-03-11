@@ -46,11 +46,11 @@ public class Main {
         byte by =127;
         short sh = 32767;
         int i = 2147483647;
-        long lon = 9223372036854775807l;
+        long lon = 9223372036854775807L;
         float fl = 127.22f;
         double dob = 134.43;
         char ch = 'p';
-        boolean bool = by!=i;
+        boolean bool = false;
         String str = "qwerty";
         Integer in = 9987567;
          Double doubl = 365758888.0;
@@ -91,7 +91,6 @@ public class Main {
 
         bool = false;
         System.out.println(bool);
-
         System.out.println(in);
         System.out.println(doubl);
         System.out.println(chara);

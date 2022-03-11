@@ -38,20 +38,7 @@ public class Second {
         this.chara = chara;
     }
 
-    public Second() {
-        this.by = by;
-        this.sh = sh;
-        this.i = i;
-        this.lon = lon;
-        this.fl = fl;
-        this.dob = dob;
-        this.ch = ch;
-        this.bool = bool;
-        this.str = str;
-        this.in = in;
-        this.doubl = doubl;
-        this.chara = chara;
-    }
+
 
     public byte getBy() {
         return by;
