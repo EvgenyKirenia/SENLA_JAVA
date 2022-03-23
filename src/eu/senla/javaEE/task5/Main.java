@@ -18,10 +18,10 @@ public class Main {
         };
 
         Robot[] robots = new Robot[9];
-        int n =0;
+        int n = 0;
         for (int i = 0; i < bodies.length; i++) {
             for (int j = 0; j < heads.length; j++) {
-                robots[n]= new Robot("Robot"+ n, heads[i], bodies[j] );
+                robots[n] = new Robot("Robot" + n, heads[i], bodies[j]);
                 n++;
             }
 

@@ -54,8 +54,7 @@ public class Rainbow {
                 }
                 System.out.println(RESET);
             }
-        }
-        else if (selectNumber == 2) {
+        } else if (selectNumber == 2) {
             while (true) {
                 System.out.println("Enter Color Number From 1 to 6 or Enter 0 for Exit");
 

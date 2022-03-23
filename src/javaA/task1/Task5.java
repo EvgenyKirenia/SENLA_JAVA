@@ -7,12 +7,10 @@ public class Task5 {
      */
     public static void main(String[] args) {
         int i = 5;
-        while (i < 10000){
-           i = i * i;
-           if (i > 10000){
-               break;
-           }
+        int degree = 5;
+        while (i < 10000) {
             System.out.println(i);
+            i = i * degree;
         }
     }
 }

@@ -1,7 +1,7 @@
 package eu.senla.javaEE.task1;
 
 public class Second {
-    private byte by ;
+    private byte by;
     private short sh;
     private int i;
     private long lon;
@@ -9,7 +9,7 @@ public class Second {
     private double dob;
     private char ch;
     private boolean bool;
-   private String str ;
+    private String str;
     private Integer in;
     private Double doubl;
     private Character chara;
@@ -37,7 +37,6 @@ public class Second {
     public void setChara(Character chara) {
         this.chara = chara;
     }
-
 
 
     public byte getBy() {
@@ -100,9 +99,11 @@ public class Second {
         this.bool = bool;
 
     }
+
     public boolean getBool() {
         return bool;
     }
+
     public String getStr() {
         return str;
     }
@@ -110,7 +111,6 @@ public class Second {
     public void setStr(String str) {
         this.str = str;
     }
-
 
 
 }

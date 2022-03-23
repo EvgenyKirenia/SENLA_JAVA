@@ -9,17 +9,15 @@ a < b - если переменная a меньше b
 a > b - если переменная b меньше a
      */
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int a = 43;
         int b = 98;
 
-        if (a == b){
+        if (a == b) {
             System.out.println("a == b");
-        }
-        else if (a < b){
+        } else if (a < b) {
             System.out.println("a < b");
-        }
-        else {
+        } else {
             System.out.println("a > b");
         }
     }

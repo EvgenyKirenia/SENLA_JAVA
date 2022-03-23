@@ -14,14 +14,13 @@ public class Task6 {
         int b = 60;
         int c = 4;
         for (int i = a; i <= b; i++) {
-            if (i % 4 == 0){
+            if (i % 4 == 0) {
                 System.out.println(i);
             }
         }
         System.out.println("----------------------");
-        for (int i = a; i <= b ; i = i + c) {
+        for (int i = a; i <= b; i = i + c) {
             System.out.println(i);
-
 
 
         }

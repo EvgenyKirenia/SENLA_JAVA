@@ -4,4 +4,4 @@ public enum TypeHead {
     BIG,
     SMALL,
     MEDIUM,
-    }
+}

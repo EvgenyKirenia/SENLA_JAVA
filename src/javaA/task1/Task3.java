@@ -12,23 +12,21 @@ public class Task3 {
      */
     public static void main(String[] args) {
         int i = 94;
-        if (i > 10){
+        if (i > 10) {
             System.out.println("i > 10");
-            if ((i / 2) > 20){
+            if ((i / 2) > 20) {
                 System.out.println("(i / 2) > 20");
             }
-            if (i < 100){
+            if (i < 100) {
                 System.out.println("i < 100");
             }
-        }
-        else {
+        } else {
             System.out.println("i < 100");
         }
 
-        if (i >=5 && i <= 40){
+        if (i >= 5 && i <= 40) {
             System.out.println("i >=5 and i <= 40");
-        }
-        else {
+        } else {
             System.out.println("i <=5 or i >= 40");
         }
     }

@@ -17,20 +17,17 @@ public class Massive {
             for (int j = 0; j < massive[i].length; j++) {
                 if (j % 3 == 0) {
                     massive[i][j] = randomNumber;
+                } else {
+                    massive[i][j] = Massive.getLetter(stringLenght);
+
+
                 }
-
-            else
-                {
-                massive[i][j] = Massive.getLetter(stringLenght);
-
-
-
-            }System.out.print(massive[i][j] + " ");
-                }
+                System.out.print(massive[i][j] + " ");
+            }
             System.out.println();
 
-        }}
-
+        }
+    }
 
 
     static String getLetter(int stringLenght) {

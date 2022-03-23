@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Second second = new Second();
 
-        second.setBy((byte)12);
+        second.setBy((byte) 12);
         System.out.println(second.getBy());
 
         second.setSh((short) 120);
@@ -43,7 +43,7 @@ public class Main {
 
         System.out.println();
 
-        byte by =127;
+        byte by = 127;
         short sh = 32767;
         int i = 2147483647;
         long lon = 9223372036854775807L;
@@ -53,9 +53,9 @@ public class Main {
         boolean bool = false;
         String str = "qwerty";
         Integer in = 9987567;
-         Double doubl = 365758888.0;
-         Character chara = 000;
-         String smile = "\uD83D\uDE04";
+        Double doubl = 365758888.0;
+        Character chara = 000;
+        String smile = "\uD83D\uDE04";
         System.out.println(smile);
         System.out.println(smile);
 
@@ -71,7 +71,7 @@ public class Main {
         dob = Double.parseDouble(String.valueOf(i));
         System.out.println(dob);
 
-        i = (int)lon;
+        i = (int) lon;
         System.out.println(i);
 
         fl = lon;

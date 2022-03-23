@@ -13,6 +13,6 @@ public class Robot {
 
     @Override
     public String toString() {
-        return "Robot name=" + name + " " + roboHead +" "+ roboBody;
+        return "Robot name=" + name + " " + roboHead + " " + roboBody;
     }
 }

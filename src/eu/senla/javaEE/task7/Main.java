@@ -9,13 +9,12 @@ public class Main {
         BadRequest delete = new BadRequest();
         BadRequest read = new BadRequest();
         BadRequest readAll = new BadRequest();
-        create.create(new User("lol","lol"));
-        create.create(new User("lol","lol"));
+        create.create(new User("lol", "lol"));
+        create.create(new User("lol", "lol"));
         readAll.readAll();
-        update.update(13,new User("qwer","123"));
-        delete.delete("qwer","123");
-        read.read("lol","lol");
-
+        update.update(13, new User("qwer", "123"));
+        delete.delete("qwer", "123");
+        read.read("lol", "lol");
 
 
     }

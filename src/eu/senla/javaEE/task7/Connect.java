@@ -1,11 +1,7 @@
 package eu.senla.javaEE.task7;
 
 
-public class Connect  {
+public class Connect {
 
 
-
-
-
-
-    }
+}

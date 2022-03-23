@@ -22,7 +22,7 @@ public class BadRequest implements Bad {
                 Connection connection = getConnection(url, userName, passsword)) {
             System.out.println("Connections to BD is succefull");
             PreparedStatement pstm = (PreparedStatement) connection.prepareStatement("INSERT INTO users (name, password) VALUES (?,?)");
-            pstm.setString(1,user.name);
+            pstm.setString(1, user.name);
             pstm.setString(2, user.password);
             pstm.execute();
         } catch (SQLException e) {
@@ -49,7 +49,7 @@ public class BadRequest implements Bad {
             pstm.setString(1, name);
             pstm.setString(2, pass);
             ResultSet resultSet = pstm.executeQuery();
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 resultSet.getString("name");
                 resultSet.getString("password");
                 int id = resultSet.getInt("id");
@@ -57,7 +57,7 @@ public class BadRequest implements Bad {
                 System.out.println(id);
 
                 System.out.println(name);
-                System.out.println(pass+"\n");
+                System.out.println(pass + "\n");
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -75,7 +75,7 @@ public class BadRequest implements Bad {
                 Connection connection = getConnection(url, userName, passsword)) {
             System.out.println("Connections to BD is succefull");
             PreparedStatement pstm = (PreparedStatement) connection.prepareStatement("UPDATE users SET name=?, password=? WHERE id=?");
-            pstm.setString(1,newUser.name);
+            pstm.setString(1, newUser.name);
             pstm.setString(2, newUser.password);
             pstm.setInt(3, 1);
             pstm.execute();
@@ -106,14 +106,14 @@ public class BadRequest implements Bad {
             String name;
             String pass;
             Integer id;
-            while (resultSet.next()){
-              name =  resultSet.getString("name");
-               pass= resultSet.getString("password");
-               id= resultSet.getInt("id");
+            while (resultSet.next()) {
+                name = resultSet.getString("name");
+                pass = resultSet.getString("password");
+                id = resultSet.getInt("id");
                 System.out.println("-----------");
                 System.out.println(id);
                 System.out.println(name);
-                System.out.println(pass+"\n");
+                System.out.println(pass + "\n");
             }
 
 
@@ -137,8 +137,8 @@ public class BadRequest implements Bad {
                 Connection connection = getConnection(url, userName, passsword)) {
             System.out.println("Connections to BD is succefull");
             PreparedStatement pstm = (PreparedStatement) connection.prepareStatement("DELETE FROM users WHERE name=? AND password=?");
-            pstm.setString(1,name);
-            pstm.setString(2,pass);
+            pstm.setString(1, name);
+            pstm.setString(2, pass);
             pstm.execute();
         } catch (SQLException e) {
             e.printStackTrace();

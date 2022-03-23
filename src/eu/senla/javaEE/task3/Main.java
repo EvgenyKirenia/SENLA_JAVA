@@ -8,7 +8,7 @@ public class Main {
             Cat cat = new Cat();
             i++;
 
-            System.out.println(cat.name + i + ", " + "Age: " + cat.age +i);
+            System.out.println(cat.name + i + ", " + "Age: " + cat.age + i);
         }
         System.out.println("=============================");
         for (i = 0; i < 10; i++) {
@@ -24,15 +24,17 @@ public class Main {
             System.out.println(cat.toString());
             i++;
         }
-            while (i < 10 - 1) ;{}
-System.out.println("=============================");
-         Cat[] cats = new Cat[5];
-        cats[0] = new Cat("Cat 1",1);
-        cats[1] = new Cat("Cat 2",2);
-        cats[2] = new Cat("Cat 3",3);
-        cats[3] = new Cat("Cat 4",4);
-        cats[4] = new Cat("Cat 5",5);
-        for (Cat cat:cats) {
+        while (i < 10 - 1);
+        {
+        }
+        System.out.println("=============================");
+        Cat[] cats = new Cat[5];
+        cats[0] = new Cat("Cat 1", 1);
+        cats[1] = new Cat("Cat 2", 2);
+        cats[2] = new Cat("Cat 3", 3);
+        cats[3] = new Cat("Cat 4", 4);
+        cats[4] = new Cat("Cat 5", 5);
+        for (Cat cat : cats) {
             System.out.println(cat);
 
         }

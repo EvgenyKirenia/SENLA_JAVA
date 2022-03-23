@@ -15,8 +15,7 @@ some variable is odd - если сумма переменных нечетная
 
         if (sumAB % 2 == 0) {
             System.out.println("maybe a and b are even");
-        }
-        else {
+        } else {
             System.out.println("some variable is odd");
         }
     }

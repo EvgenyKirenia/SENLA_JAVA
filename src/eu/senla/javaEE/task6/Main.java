@@ -1,6 +1,7 @@
 package eu.senla.javaEE.task6;
 
 import eu.senla.javaEE.task3.Cat;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

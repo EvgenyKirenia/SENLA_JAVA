@@ -10,7 +10,9 @@ public class RoboHead {
 
 
     }
+
     @Override
     public String toString() {
-        return "Head"+ typeHead;
-}}
+        return "Head" + typeHead;
+    }
+}

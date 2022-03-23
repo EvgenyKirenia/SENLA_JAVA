@@ -20,7 +20,6 @@ public class Cat {
     }
 
 
-
     @Override
     public String toString() {
         return name + ", " + "Age: " + age;
@@ -48,6 +47,7 @@ public class Cat {
     public Cat() {
 
     }
+
     public Cat(String name, int age) {
         this.name = name;
         this.age = age;
